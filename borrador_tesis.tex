@@ -265,6 +265,7 @@ El ámbito de estudio comprende el distrito de Pichacani (provincia y departamen
 \centering
 \caption{Fuentes principales de información territorial y sanitaria.}
 \label{tab:fuentes_datos}
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{lll}
 \toprule
 \textbf{Tipo de Dato} & \textbf{Fuente Oficial / Abierta} & \textbf{Uso Previsto} \\
@@ -275,7 +276,8 @@ Población y Centros Poblados & INEI (Censos 2017 / 2024) & Demanda y vulnerabil
 Red Vial y Conectividad & OpenStreetMap / MTC & Cálculo de distancias y tiempo \\
 Documentación sanitaria & Red de Salud Puno & POI y Diagnóstico de Brechas \\
 \bottomrule
-\end{tabular}
+\end{tabular}%
+}
 \end{table}
 
 \subsection{Operacionalización de Variables}
@@ -316,6 +318,7 @@ Donde $D$ es Demanda Poblacional, $A$ es Accesibilidad Geográfica, $C$ es Cober
 \centering
 \caption{Ranking preliminar de Sostenibilidad Territorial por Puesto de Salud.}
 \label{tab:ranking_ist}
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{clcccc}
 \toprule
 \textbf{Código} & \textbf{Establecimiento} & \textbf{Demanda ($D$)} & \textbf{Acceso ($A$)} & \textbf{IST Score} & \textbf{Clasificación} \\
@@ -324,7 +327,8 @@ PS-01 & Puesto de Salud Pichacani & 78.5 & 82.0 & 80.2 & Alta \\
 PS-02 & Puesto de Salud Laraqueri & 85.0 & 90.0 & 87.5 & Alta \\
 PS-03 & Puesto de Salud Huacochullo & 42.0 & 35.0 & 38.5 & Baja \\
 \bottomrule
-\end{tabular}
+\end{tabular}%
+}
 \end{table}
 
 \subsection{Discusión de Resultados}
@@ -431,6 +435,7 @@ Tripathi, A. K., Agrawal, S., \& Gupta, R. D. (2022). Comparison of GIS-based AH
 \centering
 \small
 \caption{Matriz de Operacionalización de Variables.}
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{p{3.5cm}p{3cm}p{4cm}p{3.5cm}}
 \toprule
 \textbf{Variable} & \textbf{Dimensión} & \textbf{Indicador} & \textbf{Fuente} \\
@@ -445,7 +450,8 @@ Sostenibilidad Territorial (Dependiente) & Demanda Poblacional & Población en �
  & Redundancia & Proximidad a otros puestos & RENIPRESS \\
  & Vulnerabilidad & Índice de ruralidad y etario & INEI \\
 \bottomrule
-\end{tabular}
+\end{tabular}%
+}
 \end{table}
 
 \subsection*{Anexo B: Matriz de Consistencia}
@@ -453,13 +459,15 @@ Sostenibilidad Territorial (Dependiente) & Demanda Poblacional & Población en �
 \centering
 \small
 \caption{Matriz de Consistencia de la Investigación.}
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{p{3.5cm}p{3.5cm}p{3.5cm}p{3.5cm}}
 \toprule
 \textbf{Problemas} & \textbf{Objetivos} & \textbf{Hipótesis} & \textbf{Metodología} \\
 \midrule
 \textbf{General:} ¿Cómo el SDSS multicriterio evalúa la sostenibilidad territorial de puestos de salud rurales en Pichacani 2026? & \textbf{General:} Desarrollar un SDSS geoespacial multicriterio para evaluar la sostenibilidad territorial de puestos de salud rurales. & \textbf{General:} El SDSS multicriterio permite evaluar integralmente la sostenibilidad territorial integrando demanda, acceso, cobertura, redundancia y vulnerabilidad. & \textbf{Tipo:} Aplicada.\newline \textbf{Enfoque:} Cuantitativo.\newline \textbf{Diseño:} No experimental.\newline \textbf{Técnicas:} SIG, MCDA, PostGIS, Python. \\
 \bottomrule
-\end{tabular}
+\end{tabular}%
+}
 \end{table}
 
 \end{document}
