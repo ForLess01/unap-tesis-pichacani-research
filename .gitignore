@@ -1,0 +1,18 @@
+# Archivos del sistema local (repositorio Git independiente en ./programa)
+programa/
+
+# Archivos de compilación LaTeX y temporales
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+.DS_Store
+
+# Archivos temporales de editor
+.vscode/
+.idea/
