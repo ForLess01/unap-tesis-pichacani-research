@@ -1,0 +1,45 @@
+{
+  "caption": "Distribución local de establecimientos de salud y centros poblados; el ámbito de estudio es opcional y no se usan teselas web ni red vial.",
+  "code_version": "ac88f3fa6b9fb8cbfd98b831c0f6ad1577d8cad5",
+  "crs": "EPSG:4326",
+  "output": {
+    "path": "facilities_population_centers.png",
+    "sha256": "9a4c5a95f2653d3683d4db92b08cd1c2f94ff8d9f15de212a1712cd05e95679b"
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "crs": "EPSG:4326",
+      "feature_count": 8,
+      "license": "{{PENDIENTE: confirmar licencia exacta publicada para TB_EESS.csv}}",
+      "metadata_path": "data/metadata/facilities.json",
+      "path": "data/raw/facilities.geojson",
+      "responsible": "Rendo Alfonte Tarqui",
+      "retrieved_at": "2026-08-03",
+      "sha256": "15fe5fdc4d6d96c32dffd45a78085d2aeac3757703887406edda190567a4b76b",
+      "source_url": "https://www.datosabiertos.gob.pe/sites/default/files/TB_EESS.csv"
+    },
+    {
+      "crs": "EPSG:4326",
+      "feature_count": 102,
+      "license": "{{PENDIENTE: confirmar licencia exacta de la capa INEI/IDEP}}",
+      "metadata_path": "data/metadata/population_centers.json",
+      "path": "data/raw/population_centers.geojson",
+      "responsible": "Rendo Alfonte Tarqui",
+      "retrieved_at": "2026-08-03",
+      "sha256": "8b39743b4ac706e12832d0609ffadcb8540936795fb4d9850eeeae4d6350084e",
+      "source_url": "https://www.idep.gob.pe/geoportal/rest/services/DATOS_GEOESPACIALES/CENTROS_POBLADOS_DISPERSOS/MapServer/0/query"
+    },
+    {
+      "crs": "EPSG:4326",
+      "feature_count": 1,
+      "license": "{{PENDIENTE: confirmar condiciones de uso de la capa de límites}}",
+      "metadata_path": "data/metadata/study_area.json",
+      "path": "data/raw/study_area.geojson",
+      "responsible": "Rendo Alfonte Tarqui",
+      "retrieved_at": "2026-08-03",
+      "sha256": "13bc33c8152b3787d0c78cd5b05a449cf3320f49a682ee1e0e389a4f3a921cff",
+      "source_url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/WGS84_17/WEBGIS_VALIDACION_DM_WGS84_17/MapServer/0/query"
+    }
+  ]
+}
