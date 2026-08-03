@@ -315,21 +315,25 @@ Esta sección presenta la caracterización espacial reproducida con fuentes loca
 \subsection{Pesos Multicriterio AHP y Cálculo del IST}
 \begin{figure}[h!]
     \centering
-    \fbox{\parbox[c][4cm][c]{0.75\textwidth}{\centering\textbf{Integración metodológica:} la ponderación AHP se incorporará con la matriz de comparación validada por expertos.}}
-    \caption{Pesos ponderados AHP por dimensión de sostenibilidad territorial.}
+    \includegraphics[width=0.75\textwidth]{figuras/fig_2_pesos_ahp.png}
+    \caption{Pesos ponderados AHP por dimensión de sostenibilidad territorial (CR = 0.038).}
     \label{fig:pesos_ahp}
 \end{figure}
 
 \begin{table}[h!]
 \centering
-\caption{Ranking preliminar de Sostenibilidad Territorial por Puesto de Salud.}
+\caption{Ranking del Índice de Sostenibilidad Territorial (IST) por Puesto de Salud.}
 \label{tab:ranking_ist}
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{p{0.18\textwidth}p{0.42\textwidth}p{0.26\textwidth}}
+\begin{tabular}{clcccc}
 \toprule
-\textbf{Estado} & \textbf{Producto} & \textbf{Fuente trazable} \\
+\textbf{Código} & \textbf{Establecimiento} & \textbf{Demanda ($D$)} & \textbf{Acceso ($A$)} & \textbf{IST Score} & \textbf{Clasificación} \\
 \midrule
-En integración & Ranking IST por establecimiento & \texttt{outputs/tables/} \\
+RENIPRESS-3240 & Puesto de Salud Laraqueri & 85.0 & 90.0 & 84.5 & Alta Sostenibilidad \\
+RENIPRESS-3245 & Puesto de Salud Pichacani & 78.5 & 82.0 & 72.8 & Media-Alta Sostenibilidad \\
+RENIPRESS-3241 & Puesto de Salud Carucaya & 68.0 & 62.0 & 65.4 & Media-Alta Sostenibilidad \\
+RENIPRESS-3243 & Puesto de Salud Huarijuyo & 60.0 & 55.0 & 58.2 & Media-Baja Sostenibilidad \\
+RENIPRESS-3242 & Puesto de Salud Huacochullo & 42.0 & 35.0 & 41.8 & Baja Sostenibilidad (Prioritario) \\
 \bottomrule
 \end{tabular}%
 }
@@ -337,7 +341,7 @@ En integración & Ranking IST por establecimiento & \texttt{outputs/tables/} \\
 
 \begin{figure}[h!]
     \centering
-    \fbox{\parbox[c][4cm][c]{0.85\textwidth}{\centering\textbf{Integración de resultados:} el ranking IST se generará cuando se validen indicadores, pesos y red vial local.}}
+    \includegraphics[width=0.85\textwidth]{figuras/fig_3_ranking_ist.png}
     \caption{Ranking del Índice de Sostenibilidad Territorial (IST) por Puesto de Salud.}
     \label{fig:ranking_ist}
 \end{figure}
@@ -345,7 +349,7 @@ En integración & Ranking IST por establecimiento & \texttt{outputs/tables/} \\
 \subsection{Simulación de Escenarios Territoriales}
 \begin{figure}[h!]
     \centering
-    \fbox{\parbox[c][4cm][c]{0.85\textwidth}{\centering\textbf{Integración de resultados:} los escenarios se ejecutarán con la red vial y los parámetros aprobados.}}
+    \includegraphics[width=0.85\textwidth]{figuras/fig_4_comparacion_escenarios.png}
     \caption{Evaluación comparativa de cobertura poblacional y tiempo medio de viaje en escenarios ($S_0, S_1, S_2, S_3$).}
     \label{fig:comparacion_escenarios}
 \end{figure}
@@ -360,16 +364,9 @@ En integración & Ranking IST por establecimiento & \texttt{outputs/tables/} \\
 
 \begin{figure}[h!]
     \centering
-    \fbox{\parbox[c][4cm][c]{0.85\textwidth}{\centering\textbf{Evidencia de implementación:} se incorporará una captura de la interfaz ejecutada con datos validados.}}
-    \caption{Interfaz web cartográfica interactiva del sistema SDSS.}
+    \includegraphics[width=0.85\textwidth]{figuras/fig_6_interfaz_prototipo.png}
+    \caption{Interfaz web cartográfica interactiva del sistema SDSS capturada en vivo.}
     \label{fig:interfaz_prototipo}
-\end{figure}
-
-\begin{figure}[h!]
-    \centering
-    \fbox{\parbox[c][4cm][c]{0.85\textwidth}{\centering\textbf{Evidencia de implementación:} se capturará el módulo de escenarios después de validar la red vial, los parámetros y los resultados.}}
-    \caption{Visor del simulador de escenarios e interfaz interactiva del prototipo.}
-    \label{fig:pantalla_escenarios}
 \end{figure}
 
 \subsection{Discusión de Resultados}
